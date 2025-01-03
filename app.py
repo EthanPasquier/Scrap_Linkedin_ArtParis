@@ -43,9 +43,9 @@ def load_and_process_csv():
                 )
 
                 # Champ pour les emails des destinataires
-                recipient_emails = st.text_area(
-                    "Entrez les adresses email des destinataires (une par ligne)",
-                    placeholder="exemple1@domaine.com\nexemple2@domaine.com"
+                recipient_emails = st.text_input(
+                    "Entrez une adresse email du destinataires",
+                    placeholder="exemple1@domaine.com"
                 )
 
                 # Bouton pour lancer le traitement
